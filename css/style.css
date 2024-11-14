@@ -96,7 +96,10 @@ html,body{font-family: "Do+Hyeon"sans-serif;color: #333;}
 .slide_title>p:nth-child(2){font-family: "Jua", sans-serif; font-weight: 400;font-size: 38px;padding: 20px 0;}
 .slide_title>p:nth-child(2)>span{color: #90bd20;font-weight: 600; font-size: 2em;}
 
-.slide1>.slide_wrap>.slide_title>p:nth-child(3){font-weight: 700;font-size: 25px;padding: 2vw 0; }
+
+
+.slide1>.slide_wrap>.slide_title>p:nth-child(3){font-weight: 700;font-size: 25px;padding: 20px 20px; }
+
 .slide2>.slide_wrap>.slide_title>p:nth-child(2)>span{color: palevioletred;}
 
 .slide3>.slide_wrap>.slide_title>p:nth-child(2)>span{color: #f07171;}
@@ -129,6 +132,7 @@ html,body{font-family: "Do+Hyeon"sans-serif;color: #333;}
 .slide_title>p:nth-child(2){font-size: 28px;}
 .slide_title>p:nth-child(3){display: none;}
 .ctrlbox{right: auto;left: 0;}
+.slide_title>p:nth-child(2)>span{color: #90bd20;font-weight: 600; font-size: 2em;}
 
 }
 
@@ -175,7 +179,7 @@ html,body{font-family: "Do+Hyeon"sans-serif;color: #333;}
     .con1_list{flex-wrap: wrap; justify-content: space-around;}
     .con1_list>li{flex:none; width:100%;}
     .con1_list>li>a>img{width: 100%; height: 100%;}
-
+    .conwrap>p:nth-child(2){margin: 0 auto; width: 80%;font-weight: 800;}
     
     
 }
@@ -277,7 +281,7 @@ html,body{font-family: "Do+Hyeon"sans-serif;color: #333;}
 .con3_left>p:nth-child(3):hover{background-color: #d35382; border-radius: 30px;}
 .con3_left>p:nth-child(3)::after{content: "▶"; padding-left: 30px;}
 
-.con3_right{left: 30px; position: relative; width: 55%; background-color: skyblue; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border-radius: 10%;}
+.con3_right{ position: relative; width: 55%; background-color: skyblue; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border-radius: 10%;}
 .con3_right>li:nth-child(1){width: 100%; position: absolute; top: -70px;  font-size: 2vw; font-weight: 700; text-align: center;}
 .con3_right>li{width: 25%; color: #ff5858;}
 
@@ -297,13 +301,15 @@ html,body{font-family: "Do+Hyeon"sans-serif;color: #333;}
     .con3_left>p:first-child::before{content: "●"; color: palevioletred; font-size: 35px; position: absolute; left: -40px; top: -10px;}
 .con3_left>p:nth-child(2){font-size: 5vw; font-weight: 900; color: #fff; line-height: 300%;}
 .con3_left>p:nth-child(3){position: absolute; bottom: -30px; left: 45%; font-size: 0.9em; font-weight: 500; color: #fff; line-height: 1500%;}
+.con3_left>p:nth-child(3){background-color: #d35382; border-radius: 30px;}
 .con3_right>li:nth-child(1)>span{font-size: 2em;}
 
-.con3_right{width: 100%; color: #fff; margin-bottom: 100px; margin-top: 100px;}
+.con3_right{width: 100%; color: #fff; margin-bottom: 20px; margin-top: 100px;}
 .con3_right>li{border-bottom: 2px solid white; padding: 50px auto;}
 .con3_right>li:nth-child(1){border-top: 2px solid white;}
 .con3_right>li>a{font-size: 1.5em; padding: 50px 20px 50px 20px; }
 .con3_right>li>a>span{font-size: 0.7em; color: gray; font-weight: 800;}
+.con3_left>p:nth-child(3){margin-left: -20%; height: 50px; display: flex; justify-content: center; align-items: center;}
 }
 
 .con4{width: 100%;  padding: 150px 150px;}
